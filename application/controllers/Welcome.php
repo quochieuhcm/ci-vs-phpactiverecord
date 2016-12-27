@@ -27,6 +27,9 @@ class Welcome extends CI_Controller {
 	{
 		//$this->load->model('musers');
 		$this->load->view('message');
+		echo "<pre>";
+		print_r ($variable);
+		echo "</pre>";
 	}
 
 }
